@@ -9,7 +9,7 @@ import { RouterModule, Routes } from '@angular/router';
 const routes: Routes = [
   {
     path: 'one',
-    loadChildren: '../app/components/one-home/one.module#OneModule'
+    loadChildren: '../app/modules/one/one.module#OneModule'
   },
   {
     path: 'two',

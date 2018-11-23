@@ -6,7 +6,6 @@ import { B2Component } from './../../components/b2/b2.component';
 import { B1Component } from './../../components/b1/b1.component';
 
 const routes: Routes = [
-    { path: '**', redirectTo: '/', pathMatch: 'full' },
     { path: 'b1', component: B1Component },
     { path: 'b2', component: B2Component }
 ];
